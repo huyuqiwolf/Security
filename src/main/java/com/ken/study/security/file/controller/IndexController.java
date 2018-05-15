@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 首页
  */
 @Controller
-@RequestMapping(value = "/mvc")
 public class IndexController {
 
     @RequestMapping(value = "/index")

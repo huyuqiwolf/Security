@@ -13,6 +13,7 @@ import java.io.IOException;
 public class FileServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.getWriter().write(FileServlet.class.getSimpleName());
         System.out.println("fileServlet");
     }
 
