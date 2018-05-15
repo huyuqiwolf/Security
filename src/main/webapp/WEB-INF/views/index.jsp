@@ -11,9 +11,7 @@
     <title>Security Test File</title>
 </head>
 <body>
-    <%
-        //转发请求到
-    %>
+
 Hello
 </body>
 </html>

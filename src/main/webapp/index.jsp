@@ -8,12 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>文件操作测试</title>
+    <title>文件操作安全漏洞演示</title>
 </head>
 <body>
-<a href="${pageContext.request.contextPath}/servlet/test">servlet</a>
-<br>
-<br>
-<a href="${pageContext.request.contextPath}/mvc/index">mvc</a>
+    <div>
+        <a href="${pageContext.request.contextPath}/servletTest.jsp">使用servlet进行文件的上传和下载操作安全漏洞演示</a>
+    </div>
+    <div>
+        <a href="${pageContext.request.contextPath}/mvc/index">使用springmvc进行文件的上传和下载操作安全漏洞演示</a>
+    </div>
+
 </body>
 </html>
